@@ -53,13 +53,3 @@ console.log('wylosowana liczba to: ' + randomNumber);
 computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
-
-buttonTest.addEventListener('click', function(){ 
-  buttonClicked('Test button'); });
-buttonRock.addEventListener('click', function(){ 
-  buttonClicked('Rock button'); });
-buttonPaper.addEventListener('click', function(){ 
-  buttonClicked('Paper button'); });
-buttonScissors = document.getElementById('button-scissors');
-buttonScissors.addEventListener('click', function(){ 
-  buttonClicked('Scissors button'); });
