@@ -1,4 +1,15 @@
 
+$header: 'Oswald', sans-serif;
+$text: 'Playfair Display', serif;
+
+$color: #0652DD;
+
+ /*header*/
+.header {
+	font-family: $header;
+	color: $color;
+}
+
 h2 {
     text-align: center;
     font-size: 42px;
@@ -9,11 +20,22 @@ h4 {
     font-size: 36px;
 }
 
+/*text*/
+
 p {
     text-align: center;
     font-size: 28px;
+	color: $color;
+	font-family: $text;
 }
 
+span {
+	font-size: 32px;
+	font-family: $header;
+	margin: 0 12px;
+}
+
+/*button*/
 button {
 	width: 15%;
 	border: 0;
@@ -22,8 +44,14 @@ button {
 	padding: 15px 0;
 	font-size: 26px;
 	font-weight: 600;
+	text-align: center;
 	letter-spacing: 2px;
 	box-shadow: 0 4px 10px 4px rgba(20, 51, 75, 0.3);
-	background: #ac9d19;
+	background: $color;
 	color: #ffffff;
+}
+
+#buttons {
+	text-align: center;
+	padding: 15px;
 }
