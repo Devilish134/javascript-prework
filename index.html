@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Kamień, papier, nożyce</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <div class="container">
-        <h2 class="header">WITAJ!</h2>
-        <h4 class="header">Zagrajmy w Kamień, Papier, Nożyce!</h4>
-            <p><span>Instrukcja</span> Aby wykonać swój ruch wystarczy, że klikniesz w wybrany przycisk z odpowiednim ruchem,
-            a system wylosuje ruch twojego wirtualnego przeciwnika. Wynik zostanie wyświetlony wraz z
-            informacją o twojej wygranej lub przegranej, a nawet o remisie!</p>
-        </div>
-            <div id="buttons">
-                <button type="button" id="button-test">Test</button>
-                <button type="button" id="button-rock">Kamień</button>
-                <button type="button" id="button-paper">Papier</button>
-                <button type="button" id="button-scissors">Nożyce</button>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kamień, papier, nożyce</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="header">WITAJ!</h2>
+            <h4 class="header">Zagrajmy w Kamień, Papier, Nożyce!</h4>
+                <p><span>Instrukcja</span> Aby wykonać swój ruch wystarczy, że klikniesz w wybrany przycisk z odpowiednim ruchem,
+                a system wylosuje ruch twojego wirtualnego przeciwnika. Wynik zostanie wyświetlony wraz z
+                informacją o twojej wygranej lub przegranej, a nawet o remisie!</p>
             </div>
+                <div id="buttons">
+                    <button type="button" id="button-test">Test</button>
+                    <button type="button" id="button-rock">Kamień</button>
+                    <button type="button" id="button-paper">Papier</button>
+                    <button type="button" id="button-scissors">Nożyce</button>
+                </div>
+            </div>
+            <div id="messages"></div>
         </div>
-        <div id="messages">
-        </div>
-    </div>
-    <script src="js/functions.js"></script>
-    <script src="js/script.js"></script>
-</body>
+        <script src="js/functions.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
